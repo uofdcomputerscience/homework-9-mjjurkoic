@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D666CE8245F5AB773F232BC /* Pods_UDAIRConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96334796B62B404FBA833CA2 /* Pods_UDAIRConnectivity.framework */; };
+		50727889C8210779F26B2FEF /* Pods_UDAIRConnectivityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A564D8BA7FDA74B8B76E0 /* Pods_UDAIRConnectivityTests.framework */; };
+		5B41982B10AE951A0E70D281 /* Pods_UDAIRConnectivity_UDAIRConnectivityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3788ADE04D19FCA4237F1ACB /* Pods_UDAIRConnectivity_UDAIRConnectivityUITests.framework */; };
 		5BAA4A3E239A297600B09AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA4A3D239A297600B09AEB /* AppDelegate.swift */; };
 		5BAA4A40239A297600B09AEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA4A3F239A297600B09AEB /* SceneDelegate.swift */; };
 		5BAA4A42239A297600B09AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA4A41239A297600B09AEB /* ViewController.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1864D06C1FEDB370CF73FAF5 /* Pods-UDAIRConnectivity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UDAIRConnectivity.release.xcconfig"; path = "Target Support Files/Pods-UDAIRConnectivity/Pods-UDAIRConnectivity.release.xcconfig"; sourceTree = "<group>"; };
+		249DB44FCC4565225A99D782 /* Pods-UDAIRConnectivity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UDAIRConnectivity.debug.xcconfig"; path = "Target Support Files/Pods-UDAIRConnectivity/Pods-UDAIRConnectivity.debug.xcconfig"; sourceTree = "<group>"; };
+		3788ADE04D19FCA4237F1ACB /* Pods_UDAIRConnectivity_UDAIRConnectivityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UDAIRConnectivity_UDAIRConnectivityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BAA4A3A239A297600B09AEB /* UDAIRConnectivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDAIRConnectivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BAA4A3D239A297600B09AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BAA4A3F239A297600B09AEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		5BAA4A5B239A297700B09AEB /* UDAIRConnectivityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UDAIRConnectivityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BAA4A5F239A297700B09AEB /* UDAIRConnectivityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDAIRConnectivityUITests.swift; sourceTree = "<group>"; };
 		5BAA4A61239A297700B09AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F77CC1C51DE80A5631BACC7 /* Pods-UDAIRConnectivity-UDAIRConnectivityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UDAIRConnectivity-UDAIRConnectivityUITests.release.xcconfig"; path = "Target Support Files/Pods-UDAIRConnectivity-UDAIRConnectivityUITests/Pods-UDAIRConnectivity-UDAIRConnectivityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8248A3D1E1F19E98C527FC36 /* Pods-UDAIRConnectivityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UDAIRConnectivityTests.debug.xcconfig"; path = "Target Support Files/Pods-UDAIRConnectivityTests/Pods-UDAIRConnectivityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		96334796B62B404FBA833CA2 /* Pods_UDAIRConnectivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UDAIRConnectivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4151FF783022C3CB8AE6B0D /* Pods-UDAIRConnectivity-UDAIRConnectivityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UDAIRConnectivity-UDAIRConnectivityUITests.debug.xcconfig"; path = "Target Support Files/Pods-UDAIRConnectivity-UDAIRConnectivityUITests/Pods-UDAIRConnectivity-UDAIRConnectivityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC4A564D8BA7FDA74B8B76E0 /* Pods_UDAIRConnectivityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UDAIRConnectivityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F090AF0D32B0062580AF6B38 /* Pods-UDAIRConnectivityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UDAIRConnectivityTests.release.xcconfig"; path = "Target Support Files/Pods-UDAIRConnectivityTests/Pods-UDAIRConnectivityTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D666CE8245F5AB773F232BC /* Pods_UDAIRConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50727889C8210779F26B2FEF /* Pods_UDAIRConnectivityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B41982B10AE951A0E70D281 /* Pods_UDAIRConnectivity_UDAIRConnectivityUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20E607D27209CE97AFA36376 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				249DB44FCC4565225A99D782 /* Pods-UDAIRConnectivity.debug.xcconfig */,
+				1864D06C1FEDB370CF73FAF5 /* Pods-UDAIRConnectivity.release.xcconfig */,
+				B4151FF783022C3CB8AE6B0D /* Pods-UDAIRConnectivity-UDAIRConnectivityUITests.debug.xcconfig */,
+				5F77CC1C51DE80A5631BACC7 /* Pods-UDAIRConnectivity-UDAIRConnectivityUITests.release.xcconfig */,
+				8248A3D1E1F19E98C527FC36 /* Pods-UDAIRConnectivityTests.debug.xcconfig */,
+				F090AF0D32B0062580AF6B38 /* Pods-UDAIRConnectivityTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5BAA4A31239A297600B09AEB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				5BAA4A53239A297700B09AEB /* UDAIRConnectivityTests */,
 				5BAA4A5E239A297700B09AEB /* UDAIRConnectivityUITests */,
 				5BAA4A3B239A297600B09AEB /* Products */,
+				20E607D27209CE97AFA36376 /* Pods */,
+				FA14A1B7BBC9AA4EC291AA3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +159,16 @@
 			path = UDAIRConnectivityUITests;
 			sourceTree = "<group>";
 		};
+		FA14A1B7BBC9AA4EC291AA3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96334796B62B404FBA833CA2 /* Pods_UDAIRConnectivity.framework */,
+				3788ADE04D19FCA4237F1ACB /* Pods_UDAIRConnectivity_UDAIRConnectivityUITests.framework */,
+				EC4A564D8BA7FDA74B8B76E0 /* Pods_UDAIRConnectivityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BAA4A64239A297700B09AEB /* Build configuration list for PBXNativeTarget "UDAIRConnectivity" */;
 			buildPhases = (
+				9E5A6254FD9CAF460158ED53 /* [CP] Check Pods Manifest.lock */,
 				5BAA4A36239A297600B09AEB /* Sources */,
 				5BAA4A37239A297600B09AEB /* Frameworks */,
 				5BAA4A38239A297600B09AEB /* Resources */,
+				001BD55C3A1FA351758B5765 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BAA4A67239A297700B09AEB /* Build configuration list for PBXNativeTarget "UDAIRConnectivityTests" */;
 			buildPhases = (
+				785A80B6BADB1ABFE1CBB494 /* [CP] Check Pods Manifest.lock */,
 				5BAA4A4C239A297700B09AEB /* Sources */,
 				5BAA4A4D239A297700B09AEB /* Frameworks */,
 				5BAA4A4E239A297700B09AEB /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BAA4A6A239A297700B09AEB /* Build configuration list for PBXNativeTarget "UDAIRConnectivityUITests" */;
 			buildPhases = (
+				4F54031BB3E44C6CCB7A3C72 /* [CP] Check Pods Manifest.lock */,
 				5BAA4A57239A297700B09AEB /* Sources */,
 				5BAA4A58239A297700B09AEB /* Frameworks */,
 				5BAA4A59239A297700B09AEB /* Resources */,
+				1F45F9E53F35B5801B18DB1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		001BD55C3A1FA351758B5765 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UDAIRConnectivity/Pods-UDAIRConnectivity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UDAIRConnectivity/Pods-UDAIRConnectivity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UDAIRConnectivity/Pods-UDAIRConnectivity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F45F9E53F35B5801B18DB1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UDAIRConnectivity-UDAIRConnectivityUITests/Pods-UDAIRConnectivity-UDAIRConnectivityUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UDAIRConnectivity-UDAIRConnectivityUITests/Pods-UDAIRConnectivity-UDAIRConnectivityUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UDAIRConnectivity-UDAIRConnectivityUITests/Pods-UDAIRConnectivity-UDAIRConnectivityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F54031BB3E44C6CCB7A3C72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UDAIRConnectivity-UDAIRConnectivityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		785A80B6BADB1ABFE1CBB494 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UDAIRConnectivityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5A6254FD9CAF460158ED53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UDAIRConnectivity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5BAA4A36239A297600B09AEB /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		5BAA4A65239A297700B09AEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 249DB44FCC4565225A99D782 /* Pods-UDAIRConnectivity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +599,7 @@
 		};
 		5BAA4A66239A297700B09AEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1864D06C1FEDB370CF73FAF5 /* Pods-UDAIRConnectivity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +617,7 @@
 		};
 		5BAA4A68239A297700B09AEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8248A3D1E1F19E98C527FC36 /* Pods-UDAIRConnectivityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +639,7 @@
 		};
 		5BAA4A69239A297700B09AEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F090AF0D32B0062580AF6B38 /* Pods-UDAIRConnectivityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +661,7 @@
 		};
 		5BAA4A6B239A297700B09AEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4151FF783022C3CB8AE6B0D /* Pods-UDAIRConnectivity-UDAIRConnectivityUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +681,7 @@
 		};
 		5BAA4A6C239A297700B09AEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F77CC1C51DE80A5631BACC7 /* Pods-UDAIRConnectivity-UDAIRConnectivityUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
