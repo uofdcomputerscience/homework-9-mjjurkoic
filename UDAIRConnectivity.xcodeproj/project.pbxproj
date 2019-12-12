@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1D666CE8245F5AB773F232BC /* Pods_UDAIRConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96334796B62B404FBA833CA2 /* Pods_UDAIRConnectivity.framework */; };
 		50727889C8210779F26B2FEF /* Pods_UDAIRConnectivityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4A564D8BA7FDA74B8B76E0 /* Pods_UDAIRConnectivityTests.framework */; };
+		5B365BDA23A1BC16005FC46F /* ReachabilityObserverDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B365BD923A1BC16005FC46F /* ReachabilityObserverDelegate.swift */; };
 		5B41982B10AE951A0E70D281 /* Pods_UDAIRConnectivity_UDAIRConnectivityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3788ADE04D19FCA4237F1ACB /* Pods_UDAIRConnectivity_UDAIRConnectivityUITests.framework */; };
 		5BAA4A3E239A297600B09AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA4A3D239A297600B09AEB /* AppDelegate.swift */; };
 		5BAA4A40239A297600B09AEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA4A3F239A297600B09AEB /* SceneDelegate.swift */; };
@@ -41,6 +42,7 @@
 		1864D06C1FEDB370CF73FAF5 /* Pods-UDAIRConnectivity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UDAIRConnectivity.release.xcconfig"; path = "Target Support Files/Pods-UDAIRConnectivity/Pods-UDAIRConnectivity.release.xcconfig"; sourceTree = "<group>"; };
 		249DB44FCC4565225A99D782 /* Pods-UDAIRConnectivity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UDAIRConnectivity.debug.xcconfig"; path = "Target Support Files/Pods-UDAIRConnectivity/Pods-UDAIRConnectivity.debug.xcconfig"; sourceTree = "<group>"; };
 		3788ADE04D19FCA4237F1ACB /* Pods_UDAIRConnectivity_UDAIRConnectivityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UDAIRConnectivity_UDAIRConnectivityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B365BD923A1BC16005FC46F /* ReachabilityObserverDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityObserverDelegate.swift; sourceTree = "<group>"; };
 		5BAA4A3A239A297600B09AEB /* UDAIRConnectivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDAIRConnectivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BAA4A3D239A297600B09AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BAA4A3F239A297600B09AEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,7 +103,6 @@
 				8248A3D1E1F19E98C527FC36 /* Pods-UDAIRConnectivityTests.debug.xcconfig */,
 				F090AF0D32B0062580AF6B38 /* Pods-UDAIRConnectivityTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -137,6 +138,7 @@
 				5BAA4A46239A297700B09AEB /* Assets.xcassets */,
 				5BAA4A48239A297700B09AEB /* LaunchScreen.storyboard */,
 				5BAA4A4B239A297700B09AEB /* Info.plist */,
+				5B365BD923A1BC16005FC46F /* ReachabilityObserverDelegate.swift */,
 			);
 			path = UDAIRConnectivity;
 			sourceTree = "<group>";
@@ -409,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BAA4A42239A297600B09AEB /* ViewController.swift in Sources */,
+				5B365BDA23A1BC16005FC46F /* ReachabilityObserverDelegate.swift in Sources */,
 				5BAA4A3E239A297600B09AEB /* AppDelegate.swift in Sources */,
 				5BAA4A40239A297600B09AEB /* SceneDelegate.swift in Sources */,
 			);
@@ -585,7 +588,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4TZ84885H;
 				INFOPLIST_FILE = UDAIRConnectivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -603,7 +608,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4TZ84885H;
 				INFOPLIST_FILE = UDAIRConnectivity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

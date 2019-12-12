@@ -14,32 +14,31 @@
 import UIKit
 import Reachability
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, ReachabilityObserverDelegate {
     
     @IBOutlet weak var connectivityLabel: UILabel!
     @IBOutlet weak var connectivityIndicator: UIActivityIndicatorView!
     
     let targetHost = "http://udair2.udallas.edu/cgi-bin/login"
     var reachability: Reachability?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        connectivityLabel.text = "Unreachable"
+        connectivityLabel.text = "Connection state"
         connectivityIndicator.startAnimating()
-        setupReachability(hostName: targetHost)
+        addReachabilityObserver(hostname: targetHost)
     }
-
-    func setupReachability(hostName: String) {
-        self.reachability = try? Reachability(hostname: hostName)
-        self.reachability?.whenReachable = { (reachability) in
-            self.connectivityLabel.text = "Reachable"
-            self.connectivityIndicator.stopAnimating()
-        }
-        self.reachability?.whenUnreachable = { (reachability) in
-            self.connectivityLabel.text = "Unreachable"
-            self.connectivityIndicator.startAnimating()
+    
+    func reachabilityChanged(_ isReachable: Bool) {
+        if (isReachable) {
+            connectivityLabel.text = "Reachable"
+            connectivityIndicator.stopAnimating()
+        } else {
+            connectivityLabel.text = "Unreachable"
+            connectivityIndicator.startAnimating()
         }
     }
+    
 
 }
 
